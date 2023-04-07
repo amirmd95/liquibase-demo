@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class BookService {
+public class BookAndAuthorService {
     private final BookRepository bookRepository;
 
     public List<Book> getAllBooks()
